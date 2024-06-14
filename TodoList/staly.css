@@ -1,0 +1,87 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: rgb(68, 143, 183);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+.todo-container {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  width: 300px;
+}
+
+h1 {
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+
+.input-container {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+#todo-input {
+  flex-grow: 1;
+  padding: 10px;
+  border: 2px solid #ddaa04;
+  border-radius: 3px;
+  outline: none;
+  color: rgb(68, 143, 183);
+}
+
+#add-button {
+  background-color: rgb(68, 143, 183);
+  color: #ffffff;
+  border: none;
+  width: 4vh;
+  padding: 10px;
+  cursor: pointer;
+  margin-left: 5px;
+}
+
+#todo-list {
+  list-style: none;
+  padding: 0;
+  color: rgb(68, 143, 183);
+}
+.todo-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f1f1f1;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.todo-item input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+.todo-item .actions {
+  display: flex;
+  align-items: center;
+}
+
+.todo-item .actions button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  margin: 0px;
+}
+
+.todo-item .actions .edit-btn {
+  color: rgb(183, 212, 226);
+}
+
+.todo-item .actions .delete-btn {
+  color: rgb(183, 212, 226);
+}
+#marco {
+  height: 30vh;
+  justify-content: center;
+  align-items: center;
+}
